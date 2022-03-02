@@ -1,0 +1,28 @@
+while True:
+            asd = input("devam etmek isterseniz y yazınız:  eğer çıkmak isterseniz q yazınız: ")
+            if(asd=="y"):
+                print("iki farklı sayıyı toplama işlemi")
+                sayi1 = int(input("sayı1: "))
+                sayi2 = int(input("sayı2: "))
+                print(sayi1+sayi2)
+                file.write(f"sayı1: {sayi1} ve sayı2: {sayi2} toplamı: {sayi1+sayi2}\n")
+                file.write("-----------------------------------------------------------\n")
+                continue
+            elif(asd=="q"):
+                file.close()
+                print("programdan çıkılıyor")
+                break
+
+
+
+
+
+
+
+
+
+
+                 yazi = input("yazmak istediğiniz metni giriniz: ")
+            file.write(f"{yazi}\n")
+            file.write("-----------------------------------------------------------\n")
+            print("yazınız başarıyla yazıldı")
