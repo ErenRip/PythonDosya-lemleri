@@ -1,4 +1,4 @@
-# PythonDosya-lemleri
+# PythonDosya-islemleri
 dosya yazma ve okuma
 
 
